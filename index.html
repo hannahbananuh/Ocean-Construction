@@ -6,194 +6,296 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/newstyles.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
 </head>
 
-<body class="grey darken-3">
+<body class="black">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <nav class=" navbar grey lighten-5">
-        <div class="nav-wrapper navbar__container container ">
 
-            <a href="#" class="brand-logo center">
-                <img class="nav__image" src="images/ logo.png">
-            </a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down navbar__list">
-                <li>
-                    <a class="black-text" href="projects.html">Projects</a>
-                </li>
-                <li>
-                    <a class="black-text" href="about.html">About</a>
-                </li>
-            </ul>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-wrapper navbar__container container">
 
-            <ul id="nav-mobile" class="right hide-on-med-and-down navbar__list">
+            <ul id="nav-mobile" class="center hide-on-med-and-down navbar__list">
                 <li>
-                    <a class="black-text" href="news.html">News</a>
+                    <a href="#" class="home-link">Home</a>
                 </li>
                 <li>
-                    <a class="black-text" href="contact.html">Contact</a>
+                    <a href="#" class="about-link">About</a>
+                </li>
+                <li>
+                    <a href="projects.html">Project</a>
+                </li>
+                <li>
+                    <a href="#" class="news-link">News</a>
+                </li>
+                <li>
+                    <a href="#" class="contact-link">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!--Slider Section-->
-    <div class="slider slider--no-dots">
-        <ul class="center slides">
-            <li>
-                <img src="images/Background/3.1.jpg">
-            </li>
-
-            <li>
-                <img src="images/Background/file27.jpeg">
-            </li>
-
-            <li>
-                <img src="images/Background/IMG_5191_.jpg">
-            </li>
-
-            <li>
-                <img src="images/Background/patio truxtons torrance.jpg">
+    <!-- Background -->
+    <div class="backgroud__image" id="home">
+        <a class="background__image__logo" href="#">
+            <img src="images/Ocean Logo/ logo.png" alt="Ocean Logo">
+        </a>
     </div>
-    </li>
-    </ul>
+    <!-- About Us -->
+    <div class="row container" id="about">
+        <h2 class="features__header center white-text">About Us</h2>
+        <hr>
+        <p class="about__text">The Ocean Construction Inc team has 20+ years experience building the highest quality restaurant, retail, commercial
+            and special residential buildings throughout the nation. We are a Los Angeles based company that delivers the
+            performance of a major construction corporation while keeping the relationships of a small business. Ocean Construction
+            Inc and its team have delivered on time and on budget projects to satisfied customers from Los Angeles to Las
+            Vegas, Chicago, Washington DC and many other cities. Our list of repeat customers keeps on growing, and we hope
+            to help you get your project completed on time, on budget and with the satisfaction you’ll get from the experienced
+            professionals over at Ocean Construction Inc.
+        </p>
+    </div>
+    <!-- Projects Name-->
+    <div id="project">
+        <div class="projects__header white-text">
+            <span>
+                <h4>Restaurants</h4>
+            </span>
+            <span>
+                <h4>Retail</h4>
+            </span>
+            <span>
+                <h4>Residentials</h4>
+            </span>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="container features__container">
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card z-depth-2 hoverable">
+                    <div class="card-image modal-trigger" data-target="card1">
+                        <img src="images/Website Photos/STELLA BARRA HOLLYWOOD/2.jpg">
+                        <div class="card-content center card__text">
+                            <p class="flow-text">Stella Barra, Hollywood</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card z-depth-2 hoverable">
+                    <div class="card-image modal-trigger" data-target="card2">
+                        <img src="images/Website Photos/830 FAIRFAX /IMG_5202_.jpg">
+                        <div class="card-content center card__text">
+                            <p class="flow-text">830 Fairfax</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card z-depth-2 hoverable">
+                    <div class="card-image modal-trigger" data-target="card3">
+                        <img src="images/Website Photos/PLYMOUTH/file28.jpeg">
+                        <div class="card-content center card__text">
+                            <p class="flow-text">Plymouth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="center">
+        <a class="waves-effect waves-light btn-large button__style" href="projects.html">VIEW MORE PROJECTS</a>
+    </div>
+
+
+    <!-- Projects in Motion -->
+    <div class="row container">
+        <h2 class="features__header center white-text">Projects in Motion</h2>
+        <hr>
+    </div>
+    <div class="container features__container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card z-depth-2 hoverable">
+                    <div class="card-video modal-trigger vid" data-target="card">
+                        <video id="my-video" class='video-js' controls preload='auto' controls muted poster="images/Website Photos/FARMHOUSE BEVERLY CENTER/3.jpg"
+                            data-setup='{}'>
+                            <source src="videos/farmhouse-video1.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+                        <div class="card-content center black">
+                            <p class="flow-text white-text">FARMHOUSE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card z-depth-2 hoverable">
+                    <div class="card-video modal-trigger" data-target="card">
+                        <video id="my-video" class='video-js' controls preload='auto' controls muted poster="images/Website Photos/421 N VAN NESS AVE/7.jpg"
+                            data-setup='{}'>
+                            <source src="videos/Vanness-video.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+                        <div class="card-content center black">
+                            <p class="flow-text white-text">VANNESS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container features__container">
-        <h2 class="features__header white-text">Portfolio</h2>
-        <div class="col s12 m7">
-            <div class="card horizontal z-depth-4 hoverable">
-                <div class="card-image card__image--horizantal">
-                    <video class="video" controls autoplay muted>
-                        <source src="videos/Vanness-video.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                    </video>
-                    <!-- <img src="images/Website Photos/SARI SARI DOWNTOWN LA/2.jpg"> -->
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content center valign-wrapper">
-                        <div class="card--center-text">
-                            <p class="grey-text">FEATURED</p>
-                            <h4>RESTAURANTS</h4>
-                            <hr>
-                            <br>
-                            <p class="card__paragraph--text grey-text text-darken-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis sint temporibus
-                                repellat placeat similique itaque sequi aspernatur quaerat, dignissimos sad autem quam in
-                                error incidunt, excepturi voluptatum veniam molestiae.</p>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card z-depth-2 hoverable">
+                    <div class="card-video modal-trigger" data-target="card">
+                        <video id="my-video" class='video-js' controls preload='auto' controls muted poster="images/Website Photos/PLYMOUTH/file25.jpeg"
+                            data-setup='{}'>
+                            <source src="videos/Plymouth-video2.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+                        <div class="card-content center black">
+                            <p class="flow-text white-text">PLYMOUTH</p>
                         </div>
-                    </div>
-                    <div class="card-action card-action--color">
-                        <a href="#" class="right">View More Projects</a>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div>
-            <div class="row">
-                <div class="col s12 m4">
-                    <div class="card--tall card medium z-depth-4 hoverable">
-                        <div class="card-image card__image--tall">
-                            <img class="card__image" src="images/Website Photos/MARCUS LEMONIS SHOWROOM DOWNTOWN LA/6.jpg">
-                        </div>
-                        <div class="card-content center">
-                            <div class="card--center-text">
-                                <p class="grey-text">RETAIL</p>
-                                <h5 class="card--subject">MARCUS LEMONIS</br>
-                                    DOWNTOWN, LA</h5>
-                                <hr>
-                                <br>
-                                <p class="card__paragraph--text card__paragraph--text--small grey-text text-darken-1">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis sint temporibus repellat placeat similique
-                                    itaque sequi aspernatur quaerat, dignissimos sad autem quam in error incidunt.</p>
-                            </div>
-                        </div>
-                        <div class="card-action card-action--color">
-                            <center>
-                                <a href="#">View More</a>
-                            </center>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m4">
-                    <div class="card--tall card medium z-depth-4 hoverable">
-                        <div class="card-image card__image--tall">
-                            <img class="card__image" src="images/Website Photos/421 N VAN NESS AVE/1.jpg">
-                        </div>
-                        <div class="card-content center">
-                            <div class="card--center-text">
-                                <p class="grey-text">COMMERCIAL</p>
-                                <h5 class="card--subject">421 N VAN NESS</br>
-                                    AVENUE</h5>
-                                <hr>
-                                <br>
-                                <p class="card__paragraph--text card__paragraph--text--small grey-text text-darken-1">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis sint temporibus repellat placeat similique
-                                    itaque sequi aspernatur quaerat, dignissimos sad autem quam in error incidunt.</p>
-                            </div>
-                        </div>
-                        <div class="card-action card-action--color">
-                            <center>
-                                <a href="#">View More</a>
-                            </center>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m4">
-                    <div class="card--tall card medium z-depth-4 hoverable">
-                        <div class="card-image card__image--tall ">
-                            <img class="card__image" src="images/Website Photos/GESSO WEST HOLLYWOOD/4 copy.jpg">
-                        </div>
-                        <div class="card-content center">
-                            <div class="card--center-text">
-                                <p class="grey-text">SPECIAL RESIDENCE</p>
-                                <h5 class="card--subject">GESSO</br>
-                                    WEST HOLLYWOOD</h5>
-                                <hr>
-                                <br>
-                                <p class="card__paragraph--text card__paragraph--text--small grey-text text-darken-1">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis sint temporibus repellat placeat similique
-                                    itaque sequi aspernatur quaerat, dignissimos sad autem quam in error incidunt.</p>
-                            </div>
-                        </div>
-                        <div class="card-action card-action--color">
-                            <center>
-                                <a href="#">View More</a>
-                            </center>
+            <div class="col s12 m6">
+                <div class="card z-depth-2 hoverable">
+                    <div class="card-video modal-trigger" data-target="card">
+                        <video id="my-video" class='video-js' controls preload='auto' controls muted poster="images/Website Photos/TERRANEA POOL KITCHEN/terranea.jpg"
+                            data-setup='{}'>
+                            <source src="videos/terraneapool-video.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+                        <div class="card-content center black">
+                            <p class="flow-text white-text">TERRANEA POOL</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="page-footer footer__color">
+
+    <!-- The Latest News -->
+    <div class="row container" id="news">
+        <h2 class="features__header center white-text">The Latest News</h2>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col s12 m4 offset-m2">
+            <div class="card--tall--news card large z-depth-4 hoverable">
+                <div class="card-image">
+                    <img class="card__image" src="images/Website Photos/GOLD LINE BAR/QJUM1726.JPEG">
+                </div>
+                <div class="card-content center">
+                    <div class="card--center-text">
+                        <h5 class="card--subject--small">GOLD LINE BAR</h5>
+                        <h6>October 2, 2018</h6>
+                        <hr>
+                        <p class="card__paragraph--news card__paragraph--text--small grey-text text-darken-1">
+                            Highland Park’s Groovy New Vinyl Bar Hits All the Right Notes: The Gold Line Bar, by way of Stones Throw Records.</p>
+                    </div>
+                </div>
+                <div class="card-action card-action--color">
+                    <center>
+                        <a href="https://la.eater.com/2018/10/2/17928474/gold-line-bar-highland-park-stones-throw-records-photos-inside">View More</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card--tall--news card large z-depth-4 hoverable">
+                <div class="card-image">
+                    <img class="card__image" src="images/Website Photos/HOMESTATE HIGHLAND/Capture.PNG">
+                </div>
+                <div class="card-content center">
+                    <div class="card--center-text">
+                        <h5 class="card--subject--small">HOMESTATE</h5>
+                        <h6>March 16, 2018</h6>
+                        <hr>
+                        <p class="card__paragraph--news card__paragraph--text--small grey-text text-darken-1">
+                            HomeState Offers Its Texas-Sized Heart to Highland Park: The breakfast taco champions earn a sunny new second location on
+                            Monday.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-action card-action--color">
+                    <center>
+                        <a href="https://la.eater.com/2018/3/16/17130352/homestate-highland-park-breakfast-tacos-inside-photos-opening">View More</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="backgroud__contact" id="contact">
+        <div class="row container">
+            <div class="col s12 m6">
+                <img class="contact__img" src="images/Ocean Logo/ logo.png" alt="Ocean Logo">
+            </div>
+            <form class="col s12 m6" onsubmit="" action="https://formspree.io/hannah.alcantara14@gmail.com" method="POST">
+                <div class="row">
+                    <div class="card black">
+                        <div class="card-content white-text">
+                            <span class="card-title contact__header">Contact Us</span>
+                            <div class="input-field">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input name="name" id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Your Name</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix">email</i>
+                                <input name="email" id="icon_telephone" type="email" class="validate">
+                                <label for="icon_telephone">Your Email</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea name="description" id="icon_prefix2" class="materialize-textarea"></textarea>
+                                <label for="icon_prefix2">Write us about any project. We’d love to work with you!</label>
+                            </div>
+                            <div class="center">
+                                <button type="submit" class="waves-effect waves-light btn-small button__style">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <!-- <footer class="page-footer footer__color">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
-                    <img src="images/ logo.png">
+                <div class="col s12 m4">
+                    <img src="images/Ocean Logo/ logo.png">
                 </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li>
-                            <a class="grey-text text-lighten-3" href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-lighten-3" href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-lighten-3" href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-lighten-3" href="#!">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
+                <div class="col s12 m4 offset-2"></div>
+                <ul>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="contact.html">Contacts</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="footer-copyright">
@@ -202,11 +304,12 @@
                 <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
 
 </body>
 

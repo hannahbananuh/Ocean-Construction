@@ -6,35 +6,38 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/newstyles.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
 </head>
 
-<body class="grey lighten-4">
+<body class="black">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <nav class=" navbar grey lighten-5">
-        <div class="nav-wrapper navbar__container container ">
 
-            <a href="index.html" class="brand-logo center">
-                <img class="nav__image" src="images/ logo.png">
-            </a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down navbar__list">
-                <li class="active">
-                    <a class="black-text" href="projects.html">Projects</a>
-                </li>
-                <li>
-                    <a class="black-text" href="about.html">About</a>
-                </li>
-            </ul>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-wrapper navbar__container container">
 
-            <ul id="nav-mobile" class="right hide-on-med-and-down navbar__list">
+            <ul id="nav-mobile" class="center hide-on-med-and-down navbar__list">
                 <li>
-                    <a class="black-text" href="news.html">News</a>
+                    <a href="newindex.html" class="home-link">Home</a>
                 </li>
                 <li>
-                    <a class="black-text" href="contact.html">Contact</a>
+                    <a href="newindex.html#about">About</a>
+                </li>
+                <li>
+                    <a href="projects.html" class="project-link">Project</a>
+                </li>
+                <li>
+                    <a href="newindex.html#news">News</a>
+                </li>
+                <li>
+                    <a href="newindex.html#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -42,7 +45,7 @@
 
     <br>
     <br>
-    <div class="features__header center">
+    <div class="features__header center white-text">
         <h2>Our Portfolio</h2>
     </div>
     <div class="container features__container features__container--no-padding">
@@ -53,7 +56,7 @@
                     <div class="card-image modal-trigger" data-target="card1">
                         <img src="images/Website Photos/421 N VAN NESS AVE/5.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">421 N Van Ness Ave</p>
                     </div>
                 </div>
@@ -63,7 +66,7 @@
                     <div class="card-image modal-trigger" data-target="card2">
                         <img src="images/Website Photos/830 FAIRFAX /IMG_5202_.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">830 Fairfax</p>
                     </div>
                 </div>
@@ -73,7 +76,7 @@
                     <div class="card-image modal-trigger" data-target="card3">
                         <img src="images/Website Photos/BASE COAT DOWNTOWN LA/2.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Basecoat Downtown, LA</p>
                     </div>
                 </div>
@@ -86,7 +89,7 @@
                     <div class="card-image modal-trigger" data-target="card4">
                         <img src="images/Website Photos/BASECOAT FAIRFAX/IMG_5287_.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text"> Basecoat Fairfax</p>
                     </div>
                 </div>
@@ -96,7 +99,7 @@
                     <div class="card-image modal-trigger" data-target="card5">
                         <img src="images/Website Photos/CAFE GRATITUDE BEVERLY HILLS/2.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Cafe Gratitude, Beverly Hills</p>
                     </div>
                 </div>
@@ -106,7 +109,7 @@
                     <div class="card-image modal-trigger" data-target="card6">
                         <img src="images/Website Photos/EASY DINER BEVERLY CENTER/BDMN5832.JPEG">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Easy Diner, Beverly Center</p>
                     </div>
                 </div>
@@ -119,7 +122,7 @@
                     <div class="card-image modal-trigger" data-target="card7">
                         <img src="images/Website Photos/FARMHOUSE BEVERLY CENTER/8.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Farmhouse, Beverly Center</p>
                     </div>
                 </div>
@@ -129,7 +132,7 @@
                     <div class="card-image modal-trigger" data-target="card8">
                         <img src="images/Website Photos/GESSO WEST HOLLYWOOD/2.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Gesso, West Hollywood</p>
                     </div>
                 </div>
@@ -139,7 +142,7 @@
                     <div class="card-image modal-trigger" data-target="card9">
                         <img src="images/Website Photos/GOLD LINE BAR/QJUM1726.JPEG">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Gold Line Bar</p>
                     </div>
                 </div>
@@ -152,7 +155,7 @@
                     <div class="card-image modal-trigger" data-target="card10">
                         <img src="images/Website Photos/HOMESTATE HIGHLAND/Capture.PNG">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Homestate, Highland</p>
                     </div>
                 </div>
@@ -162,7 +165,7 @@
                     <div class="card-image modal-trigger" data-target="card11">
                         <img src="images/Website Photos/LAMILL BEVERLY CENTER/file1-17.jpeg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Lamill, Beverly Hills</p>
                     </div>
                 </div>
@@ -172,7 +175,7 @@
                     <div class="card-image modal-trigger" data-target="card12">
                         <img src="images/Website Photos/MARCUS LEMONIS SHOWROOM DOWNTOWN LA/4.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Marcus Lemonis Showroom</p>
                     </div>
                 </div>
@@ -186,7 +189,7 @@
                     <div class="card-image modal-trigger" data-target="card13">
                         <img src="images/Website Photos/PLYMOUTH/file28.jpeg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Plymouth</p>
                     </div>
                 </div>
@@ -196,7 +199,7 @@
                     <div class="card-image modal-trigger" data-target="card14">
                         <img src="images/Website Photos/SARI SARI DOWNTOWN LA/1.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Sari-Sari, Downtown LA</p>
                     </div>
                 </div>
@@ -206,7 +209,7 @@
                     <div class="card-image modal-trigger" data-target="card15">
                         <img src="images/Website Photos/STELLA BARRA HOLLYWOOD/1.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Stella Barra, Hollywood</p>
                     </div>
                 </div>
@@ -221,7 +224,7 @@
                     <div class="card-image modal-trigger" data-target="card16">
                         <img src="images/Website Photos/TERRANEA RESORT CATALINA KITCHEN/3.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Terranea Catalina Kitchen</p>
                     </div>
                 </div>
@@ -231,7 +234,7 @@
                     <div class="card-image modal-trigger" data-target="card17">
                         <img src="images/Website Photos/TRUXTON'S TORRANCE/2.jpg">
                     </div>
-                    <div class="card-content center">
+                    <div class="card-content center card__text">
                         <p class="flow-text">Truxton's Torrance</p>
                     </div>
                 </div>
@@ -240,7 +243,7 @@
     </div>
 
 
-    <footer class="page-footer footer__color">
+    <!-- <footer class="page-footer footer__color">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -271,7 +274,7 @@
                 <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <div id="card1" class="modal modal__big">
         <a class="modal__exit btn-floating btn-large waves-effect waves-light red modal-close">

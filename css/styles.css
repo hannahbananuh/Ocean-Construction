@@ -80,6 +80,10 @@ h6 {
     height: 750px !important;
 }
 
+.card--tall--news {
+    height: 560px !important;
+}
+
 .card__image--tall {
     max-height: 47% !important;
 }
@@ -98,6 +102,13 @@ h6 {
     font-size: 1.2rem;
     font-weight: lighter;
     text-align: justify;
+}
+
+.card__paragraph--news {
+    line-height: 1.6;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .card__paragraph--text--small {
@@ -120,23 +131,23 @@ h6 {
 }
 
 .footer__color {
-    background-color: #17263A;
+    background-color: #000000;
 }
 
 .card-action--color center a {
-    color: #7888AD !important;
+    color: #2C3493 !important;
 }
 
 .card-action--color center a:hover {
-    color: #D5A5A3 !important;
+    color: #000000 !important;
 }
 
 .card-action--color a {
-    color: #7888AD !important;
+    color: #2C3493 !important;
 }
 
 .card-action--color a:hover {
-    color: #D5A5A3 !important;
+    color: #000000 !important;
 }
 
 .parallax__img{
