@@ -58,24 +58,20 @@ hr {
 .background__image__logo img {
     display: block;
     margin: 0 auto;
-    height: 8.5rem;
+    height: 9.5rem;
 }
 
 .sticky {
-    background-color: black !important;
+    background-color: grey !important;
 }
 
 .navbar {
     transition: background-color .2s ease-in-out;
     position: fixed;
     height: 111px;
-    /* position: absolute; */
     z-index: 1000;
     background-color: transparent;
     box-shadow: none;
-    /* position: absolute;
-    z-index: 9000;
-    background-color: transparent; */
 }
 
 .navbar__container {
@@ -97,7 +93,6 @@ hr {
     font-size: 18.5px;
     padding: 23px 31px;
     padding-top: 24px;
-    /* margin-top: 3px; */
     font-weight: 700;
     font-family: 'Cardo', serif !important;
 }
@@ -124,6 +119,10 @@ hr {
     background-color: rgba(0, 0, 0, 0.50) !important;
 }
 
+.font-size{
+    font-size: 1.21rem;
+}
+
 .features__container {
     width: 95%;
     max-width: 100vw;
@@ -137,7 +136,7 @@ hr {
     padding: 2rem;
     text-align: center;
     font-size: 1.2rem;
-    color: #ffffff;
+    color: black;
     font-weight: 300;
 }
 
@@ -216,10 +215,6 @@ hr {
     width: auto;
 }
 
-.footer__color {
-    background-color: #000000;
-}
-
 .card-action--color center a {
     color: #ffffff !important;
 }
@@ -256,6 +251,10 @@ width:100%;
 .projects__header span {
     display: block;
 }
+/* 
+.modal-content {
+    overflow-y: auto;
+} */
 
 .modal__big {
     width: 90%;
@@ -271,7 +270,8 @@ width:100%;
 
 .modal__image {
     display: block;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .modal__header {
@@ -283,8 +283,8 @@ width:100%;
     margin-bottom: 40px;
 }
 
-.contacts__image{
-    width: 100%;
+.contact__img{
+    width: 25rem;
 }
 .video-js {
     width: 100%;

@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/newstyles.css">
+    <link rel="shortcut icon" type="image/png" href="images/Ocean Logo/logo2.png">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
@@ -15,7 +16,7 @@
     <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
 </head>
 
-<body class="black">
+<body class="grey">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 
@@ -31,7 +32,7 @@
                     <a href="#" class="about-link">About</a>
                 </li>
                 <li>
-                    <a href="projects.html">Project</a>
+                    <a href="projects.html">Projects</a>
                 </li>
                 <li>
                     <a href="#" class="news-link">News</a>
@@ -46,12 +47,12 @@
     <!-- Background -->
     <div class="backgroud__image" id="home">
         <a class="background__image__logo" href="#">
-            <img src="images/Ocean Logo/ logo.png" alt="Ocean Logo">
+            <img src="images/Ocean Logo/oceanC.png" alt="Ocean Logo">
         </a>
     </div>
     <!-- About Us -->
     <div class="row container" id="about">
-        <h2 class="features__header center white-text">About Us</h2>
+        <h2 class="features__header center black-text">About Us</h2>
         <hr>
         <p class="about__text">The Ocean Construction Inc team has 20+ years experience building the highest quality restaurant, retail, commercial
             and special residential buildings throughout the nation. We are a Los Angeles based company that delivers the
@@ -64,7 +65,7 @@
     </div>
     <!-- Projects Name-->
     <div id="project">
-        <div class="projects__header white-text">
+        <div class="projects__header black-text">
             <span>
                 <h4>Restaurants</h4>
             </span>
@@ -72,7 +73,7 @@
                 <h4>Retail</h4>
             </span>
             <span>
-                <h4>Commerical</h4>
+                <h4>Commercial</h4>
             </span>
             <span>
                 <h4>Multi Unit Residential</h4>
@@ -88,7 +89,7 @@
                     <div class="card-image modal-trigger" data-target="card1">
                         <img src="images/Website Photos/STELLA BARRA HOLLYWOOD/2.jpg">
                         <div class="card-content center card__text">
-                            <p class="flow-text">Stella Barra, Hollywood</p>
+                            <p class="font-size">Stella Barra, Hollywood</p>
                         </div>
                     </div>
                 </div>
@@ -98,7 +99,7 @@
                     <div class="card-image modal-trigger" data-target="card2">
                         <img src="images/Website Photos/830 FAIRFAX /IMG_5202_.jpg">
                         <div class="card-content center card__text">
-                            <p class="flow-text">830 Fairfax</p>
+                            <p class="font-size">830 Fairfax, West Hollywood</p>
                         </div>
                     </div>
                 </div>
@@ -108,7 +109,7 @@
                     <div class="card-image modal-trigger" data-target="card3">
                         <img src="images/Website Photos/PLYMOUTH/file28.jpeg">
                         <div class="card-content center card__text">
-                            <p class="flow-text">Plymouth</p>
+                            <p class="font-size">Plymouth, Los Angeles</p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +119,7 @@
                     <div class="card-image modal-trigger" data-target="card4">
                         <img src="images/Website Photos/421 N VAN NESS AVE/7.jpg">
                         <div class="card-content center card__text">
-                            <p class="flow-text">421 N Van Ness Ave</p>
+                            <p class="font-size">421 N Van Ness Ave, Hancock Park</p>
                         </div>
                     </div>
                 </div>
@@ -133,33 +134,37 @@
 
     <!-- Projects in Motion -->
     <div class="row container">
-        <h2 class="features__header center white-text">Projects in Motion</h2>
+        <h2 class="features__header center black-text">Projects in Motion</h2>
         <hr>
     </div>
     <div class="container features__container">
         <div class="row">
             <div class="col s12 m6">
-                <div class="card z-depth-2 hoverable">
+                <div class="card z-depth-2 hoverable black">
+                    <br>
+                    <br>
                     <div class="card-video modal-trigger" data-target="card">
                         <video id="my-video" class='video-js' controls preload='auto' controls muted poster="images/Website Photos/FARMHOUSE BEVERLY CENTER/3.jpg"
                             data-setup='{}'>
                             <source src="videos/farmhouse-video1.mp4" type="video/mp4"> Your browser does not support the video tag.
                         </video>
                         <div class="card-content center black">
-                            <p class="flow-text white-text">FARMHOUSE</p>
+                            <p class="flow-text white-text">Farmhouse, Beverly Center</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6">
-                <div class="card z-depth-2 hoverable">
+                <div class="card z-depth-2 hoverable black">
+                        <br>
+                        <br>
                     <div class="card-video modal-trigger" data-target="card">
                         <video id="my-video" class='video-js' controls preload='auto' controls muted poster="images/Website Photos/421 N VAN NESS AVE/7.jpg"
                             data-setup='{}'>
                             <source src="videos/Vanness-video.mp4" type="video/mp4"> Your browser does not support the video tag.
                         </video>
                         <div class="card-content center black">
-                            <p class="flow-text white-text">VANNESS</p>
+                            <p class="flow-text white-text">421 N Van Ness Ave, Hancock Park</p>
                         </div>
                     </div>
                 </div>
@@ -170,27 +175,31 @@
     <div class="container features__container">
         <div class="row">
             <div class="col s12 m6">
-                <div class="card z-depth-2 hoverable">
+                <div class="card z-depth-2 hoverable black">
+                        <br>
+                        <br>
                     <div class="card-video modal-trigger" data-target="card">
                         <video id="my-video" class='video-js' controls preload='auto' controls muted poster="images/Website Photos/PLYMOUTH/file25.jpeg"
                             data-setup='{}'>
                             <source src="videos/Plymouth-video2.mp4" type="video/mp4"> Your browser does not support the video tag.
                         </video>
                         <div class="card-content center black">
-                            <p class="flow-text white-text">PLYMOUTH</p>
+                            <p class="flow-text white-text">Plymouth, Los Angeles</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6">
-                <div class="card z-depth-2 hoverable">
+                <div class="card z-depth-2 hoverable black">
+                        <br>
+                        <br>
                     <div class="card-video modal-trigger" data-target="card">
                         <video id="my-video" class='video-js' controls preload='auto' controls muted poster="images/Website Photos/TERRANEA POOL KITCHEN/Terranea_Pools_Vista.jpg"
                             data-setup='{}'>
                             <source src="videos/terraneapool-video.mp4" type="video/mp4"> Your browser does not support the video tag.
                         </video>
                         <div class="card-content center black">
-                            <p class="flow-text white-text">TERRANEA POOL</p>
+                            <p class="flow-text white-text">Pool Kitchen, Terranea Resort</p>
                         </div>
                     </div>
                 </div>
@@ -200,7 +209,7 @@
 
     <!-- The Latest News -->
     <div class="row container" id="news">
-        <h2 class="features__header center white-text">The Latest News</h2>
+        <h2 class="features__header center black-text">The Latest News</h2>
         <hr>
     </div>
     <div class="row card__news">
@@ -276,7 +285,7 @@
     <div class="backgroud__contact" id="contact">
         <div class="row container">
             <div class="col s12 m6">
-                <img class="contact__img" src="images/Ocean Logo/ logo.png" alt="Ocean Logo">
+                <img class="contact__img" src="images/Ocean Logo/oceanC.png" alt="Ocean Logo">
             </div>
             <form class="col s12 m6" onsubmit="" action="https://formspree.io/info@oceangroupca.com" method="POST">
                 <div class="row">
@@ -296,7 +305,7 @@
                             <div class="input-field">
                                 <i class="material-icons prefix">mode_edit</i>
                                 <textarea name="description" id="icon_prefix2" class="materialize-textarea"></textarea>
-                                <label for="icon_prefix2">Write us about any project. We’d love to work with you!</label>
+                                <label for="icon_prefix2">Write us about your project. We’d love to work with you!</label>
                             </div>
                             <div class="center">
                                 <button type="submit" class="waves-effect waves-light btn-small button__style">SUBMIT</button>
@@ -307,40 +316,7 @@
             </form>
         </div>
     </div>
-
-
-    <!-- Footer -->
-    <!-- <footer class="page-footer footer__color">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 m4">
-                    <img src="images/Ocean Logo/ logo.png">
-                </div>
-                <div class="col s12 m4 offset-2"></div>
-                <ul>
-                    <li>
-                        <a class="grey-text text-lighten-3" href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                        <a class="grey-text text-lighten-3" href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a class="grey-text text-lighten-3" href="news.html">News</a>
-                    </li>
-                    <li>
-                        <a class="grey-text text-lighten-3" href="contact.html">Contacts</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2019 Copyright Ocean Construction
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-        </div>
-    </footer> -->
-
+    
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
