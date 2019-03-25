@@ -359,3 +359,16 @@ input, textarea {
     border-bottom: 1px solid #2C3493 !important;
     box-shadow: 0 1px 0 0 #000 !important;
 }
+
+.social-links {
+    padding: 1rem 0;
+}
+
+.social-links a {
+    color: white;
+    transition: color .15s ease-in-out;
+}
+
+.social-links a:hover{
+    color: #2C3493;
+}
