@@ -440,3 +440,9 @@ input, textarea {
         width: 35rem;
     }
 }
+
+@media (max-width: 1362px) {
+    label {
+        font-size: .8rem !important;
+    }
+}
