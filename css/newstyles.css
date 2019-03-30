@@ -31,7 +31,7 @@ hr {
 .backgroud__image{
     width: 100vw;
     height: 100vh;
-    background-image: url('../images/Background/Background.png');
+    background-image: url('../images/Background/bg.jpeg');
     background-size: cover;
     background-position: 0% 22%;
 }
@@ -351,7 +351,7 @@ width:100%;
     display: flex;
     padding: 7rem 0;
     width: 100%;
-    background-image: url('../images/Background/contacts img.png');
+    background-image: url('../images/Background/3.jpg');
     background-size: cover;
 }
 .backgroud__contact .row{
