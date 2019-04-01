@@ -121,7 +121,7 @@ hr {
 }
 
 .font-size{
-    font-size: 1.21rem;
+    font-size: .95rem;
 }
 
 .features__container {
@@ -307,7 +307,7 @@ width:100%;
 } */
 
 .modal__big {
-    width: 80%;
+    width: 70%;
     max-height: 85%;
 }
 
@@ -320,13 +320,13 @@ width:100%;
 
 .modal__image {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .modal__header {
-    padding-top: 50px;
-    padding-bottom: 35px; 
+    padding-top: 45px;
+    padding-bottom: 25px; 
 }
 
 .modal__image:not(:last-child){
@@ -353,6 +353,7 @@ width:100%;
     width: 100%;
     background-image: url('../images/Background/3.jpg');
     background-size: cover;
+    background-position: 0% 22%;
 }
 .backgroud__contact .row{
     margin: auto;
