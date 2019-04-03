@@ -148,7 +148,7 @@ hr {
 
 .about__text{
     padding: 2rem;
-    text-align: center;
+    text-align: justify;
     font-size: 1.2rem;
     color: black;
     font-weight: 300;
@@ -184,8 +184,12 @@ hr {
 
 @media (min-width: 2800px) {
     .card--tall--news {
-        height: 630px !important;
+        height: 1000px !important;
     }
+}
+
+.card-image {
+    cursor: pointer;
 }
 
 .card__image--tall {
@@ -307,7 +311,7 @@ width:100%;
 } */
 
 .modal__big {
-    width: 70%;
+    width: 63%;
     max-height: 85%;
 }
 
@@ -446,4 +450,123 @@ input, textarea {
     label {
         font-size: .8rem !important;
     }
+}
+
+@media (min-width: 2800px) {
+    .container {
+        width: 70%;
+        max-width: 2250px;
+    }
+
+    .navbar {
+        height: 11.8rem;
+    }
+    .navbar__list {
+        padding: 2rem 0;
+    }
+
+    .navbar__list li {
+        padding: 0 1rem;
+    }
+
+    .navbar__list li a {
+        font-size: 2.5rem;
+    }
+
+    .background__image__logo img {
+        height: 13.5rem;
+    }
+
+    .features__header{
+        font-size: 6.5rem;
+        margin-top: 8rem;
+    }
+
+    .about__text{
+        font-size: 2.4rem;
+    }
+
+    .projects__header{
+        padding: 2.5rem 0;
+        font-size: 3.5rem;
+    }
+
+    .features__container{
+        max-width: 100vw;
+    }
+    .features__container .row {
+       padding: 2rem 0; 
+       padding-top: 6rem;
+    }
+    
+    .font-size{
+        font-size: 2rem;
+    }
+    .card .card-content {
+        padding: 3rem 2rem;
+    }
+
+    .card-content .flow-text{
+        font-size: 2.68rem;
+    }
+
+   .card--subject--small {
+       font-size: 3rem;
+   }
+
+   .card--center-text h6{
+       font-size: 2rem;
+       margin-bottom: 1rem;
+   }
+
+   .card__paragraph--text--small{
+       font-size: 2rem;
+       margin-top: 1rem;
+   }
+
+   .btn-large {
+       font-size: 2rem;
+       height: 7.5rem;
+       padding: 2rem 5rem;
+   }
+
+   .card .card-action {
+    padding: 2.5rem 2.4rem;        
+   }
+
+   .contact__header{
+       font-size: 3rem !important;
+   }
+
+   .card__height{
+    padding: 4.5rem 4rem !important;
+   }
+   .btn-small{
+    font-size: 1.5rem;
+    height: 4rem;
+    padding: 0 2rem;
+   }
+
+   .contact__img{
+       width: 40rem;
+   }
+
+   .social-links a i:before {
+        font-size: 3rem;
+   }
+
+   /* Projects Page */
+   .features__header{
+    margin-top: 11rem;
+    margin-bottom: 2rem;
+   }
+
+   .features__header h2{
+       font-size: 6rem;
+   }
+
+   .modal__big {
+    width: 45%;
+    max-height: 85%;
+}
 }
