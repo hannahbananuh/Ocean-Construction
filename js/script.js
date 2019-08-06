@@ -7,30 +7,28 @@ $(document).ready(function () {
         duration: 400
     });
     $('.modal').modal();
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems, options);
-      });
+    $('.sidenav').sidenav();
+
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+    });
 });
 
 
-
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true
-});
 
 $(document).ready(function () {
     $('.parallax').parallax();
     var stickyNavTop = $('body').offset().top;
     var navHeight = $('.navbar').height();
     $('.home-link').click(function (e) {
-        e.preventDefault();
+        // e.preventDefault();
         $('html,body').animate({
             scrollTop: $('#home').offset().top
         }, 300);
     });
     $('.about-link').click(function (e) {
-        e.preventDefault();
+        // e.preventDefault();
         $('html,body').animate({
             scrollTop: ($('#about').offset().top - navHeight)
         }, 300);
@@ -42,13 +40,12 @@ $(document).ready(function () {
     //     }, 300);
     // });
     $('.news-link').click(function (e) {
-        e.preventDefault();
+        // e.preventDefault();
         $('html,body').animate({
             scrollTop: ($('#news').offset().top - navHeight)
         }, 300);
     });
     $('.contact-link').click(function (e) {
-        e.preventDefault();
         $('html,body').animate({
             scrollTop: ($('#contact').offset().top - navHeight)
         }, 300);
