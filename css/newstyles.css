@@ -265,6 +265,25 @@ object-fit: cover;
     padding: 2rem 4rem;
 }
 
+@media (max-width: 375px) {
+    .card__stack{
+        display: block !important;
+    }
+    .card__stack:first-child {
+        margin-top: 5rem !important ;
+    }
+    .card.horizontal .card-image {
+        max-width: 100% !important;
+    }
+    .card__paragraph--news.card__paragraph--text--small.text-darken-1.text__big {
+        font-size: 1.45rem !important;
+    }
+    .card--subject--small.text_big{
+        font-size: 1.6rem !important;
+    }
+}
+
+
 @media (min-width: 1866px) {
     .card__news{
         padding: 2rem 11rem;
