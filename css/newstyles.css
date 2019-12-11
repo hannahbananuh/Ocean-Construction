@@ -478,6 +478,17 @@ input, textarea {
     color: #2C3493;
 }
 
+.card__size{
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+@media (max-width: 605px) {
+    .card__size {
+        width: 100% !important;
+    }
+}
+
 @media (min-width: 1866px) {
     .container {
         width: 70%;
@@ -598,6 +609,7 @@ input, textarea {
    .card__height{
     padding: 4.5rem 4rem !important;
    }
+
    .btn-small{
     font-size: 1.5rem;
     height: 4rem;
